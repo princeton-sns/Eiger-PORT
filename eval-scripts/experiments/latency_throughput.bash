@@ -34,7 +34,7 @@ username="$USER"
     client_config=${nservers}_clients_in_kodiak
 
     #location specific config
-    local_dir="/local/Eiger-PORT"    # Please make this the absolute path of the repository Eiger-PORT
+    local_dir="/local/Eiger-PORT"    # if cloned to /foo, then change this to "/foo/Eiger-PORT"
     cops_dir="${local_dir}/Eiger-PORT"
     vanilla_dir="${local_dir}/eiger"
     tools_dir="${local_dir}/eiger"
