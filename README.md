@@ -34,7 +34,7 @@ We highly recommend re-creating the experimental environment close to the settin
                      
     xxx:/local/Eiger-PORT/eiger/tools/stress$ ant   (build the stress tool for load generating)          
    
-   (Note: "ant" might encounter failures for the first time of building when it dowloands its own dependencies. Please try "ant" multiple times if that happens, and it should succeed within 3 attempts.)  
+####  (Note: "ant" might encounter failures for the first time of building when it dowloands its own dependencies. Please try "ant" multiple times if that happens, and it should succeed within 3 attempts.)  
    
 3.4 Build on a cluster of nodes: please repeat the steps 3.1 to 3.3 on all the machines Eiger-PORT will be run on. An easier option is to make an image that contains a built Eiger-PORT system (e.g., after done 3.3) and start all the other machines by loading the image (Cloud platforms like Emulab and Azure normally have this image creation functionality). Another option is to use scp to copy everything in the /local directory to the /local directory on the other nodes (need to install dependencies on other nodes first, e.g., step 3.2).
 
