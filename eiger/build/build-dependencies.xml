@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-dependencies" default="init-dependencies">
+<target name="init-dependencies">
+    <echo level="info" message="Loading dependency paths from file: /local/eiger/build/build-dependencies.xml"/>
+    <property name="com.thoughtworks.paranamer:paranamer-ant:jar" value="/users/hl0325/.m2/repository/com/thoughtworks/paranamer/paranamer-ant/2.1/paranamer-ant-2.1.jar"/>
+    <fileset id="com.thoughtworks.paranamer:paranamer-ant:jar" dir="/users/hl0325/.m2/repository/com/thoughtworks/paranamer/paranamer-ant/2.1">
+      <include name="paranamer-ant-2.1.jar"/>
+    </fileset>
+    <property name="com.thoughtworks.paranamer:paranamer-generator:jar" value="/users/hl0325/.m2/repository/com/thoughtworks/paranamer/paranamer-generator/2.1/paranamer-generator-2.1.jar"/>
+    <fileset id="com.thoughtworks.paranamer:paranamer-generator:jar" dir="/users/hl0325/.m2/repository/com/thoughtworks/paranamer/paranamer-generator/2.1">
+      <include name="paranamer-generator-2.1.jar"/>
+    </fileset>
+    <property name="com.thoughtworks.qdox:qdox:jar" value="/users/hl0325/.m2/repository/com/thoughtworks/qdox/qdox/1.10/qdox-1.10.jar"/>
+    <fileset id="com.thoughtworks.qdox:qdox:jar" dir="/users/hl0325/.m2/repository/com/thoughtworks/qdox/qdox/1.10">
+      <include name="qdox-1.10.jar"/>
+    </fileset>
+    <property name="asm:asm:jar" value="/users/hl0325/.m2/repository/asm/asm/3.2/asm-3.2.jar"/>
+    <fileset id="asm:asm:jar" dir="/users/hl0325/.m2/repository/asm/asm/3.2">
+      <include name="asm-3.2.jar"/>
+    </fileset>
+    <property name="ant:ant:jar" value="/users/hl0325/.m2/repository/ant/ant/1.6.5/ant-1.6.5.jar"/>
+    <fileset id="ant:ant:jar" dir="/users/hl0325/.m2/repository/ant/ant/1.6.5">
+      <include name="ant-1.6.5.jar"/>
+    </fileset>
+    <property name="junit:junit:jar" value="/users/hl0325/.m2/repository/junit/junit/4.6/junit-4.6.jar"/>
+    <fileset id="junit:junit:jar" dir="/users/hl0325/.m2/repository/junit/junit/4.6">
+      <include name="junit-4.6.jar"/>
+    </fileset>
+    <property name="commons-logging:commons-logging:jar" value="/users/hl0325/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+    <fileset id="commons-logging:commons-logging:jar" dir="/users/hl0325/.m2/repository/commons-logging/commons-logging/1.1.1">
+      <include name="commons-logging-1.1.1.jar"/>
+    </fileset>
+    <property name="org.apache.rat:apache-rat:jar" value="/users/hl0325/.m2/repository/org/apache/rat/apache-rat/0.6/apache-rat-0.6.jar"/>
+    <fileset id="org.apache.rat:apache-rat:jar" dir="/users/hl0325/.m2/repository/org/apache/rat/apache-rat/0.6">
+      <include name="apache-rat-0.6.jar"/>
+    </fileset>
+    <property name="org.apache.rat:apache-rat-core:jar" value="/users/hl0325/.m2/repository/org/apache/rat/apache-rat-core/0.6/apache-rat-core-0.6.jar"/>
+    <fileset id="org.apache.rat:apache-rat-core:jar" dir="/users/hl0325/.m2/repository/org/apache/rat/apache-rat-core/0.6">
+      <include name="apache-rat-core-0.6.jar"/>
+    </fileset>
+    <property name="commons-collections:commons-collections:jar" value="/users/hl0325/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar"/>
+    <fileset id="commons-collections:commons-collections:jar" dir="/users/hl0325/.m2/repository/commons-collections/commons-collections/3.2">
+      <include name="commons-collections-3.2.jar"/>
+    </fileset>
+    <property name="commons-cli:commons-cli:jar" value="/users/hl0325/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
+    <fileset id="commons-cli:commons-cli:jar" dir="/users/hl0325/.m2/repository/commons-cli/commons-cli/1.2">
+      <include name="commons-cli-1.2.jar"/>
+    </fileset>
+    <property name="org.apache.rat:apache-rat-tasks:jar" value="/users/hl0325/.m2/repository/org/apache/rat/apache-rat-tasks/0.6/apache-rat-tasks-0.6.jar"/>
+    <fileset id="org.apache.rat:apache-rat-tasks:jar" dir="/users/hl0325/.m2/repository/org/apache/rat/apache-rat-tasks/0.6">
+      <include name="apache-rat-tasks-0.6.jar"/>
+    </fileset>
+    <property name="org.apache.hadoop:hadoop-core:jar" value="/users/hl0325/.m2/repository/org/apache/hadoop/hadoop-core/0.20.203.0/hadoop-core-0.20.203.0.jar"/>
+    <fileset id="org.apache.hadoop:hadoop-core:jar" dir="/users/hl0325/.m2/repository/org/apache/hadoop/hadoop-core/0.20.203.0">
+      <include name="hadoop-core-0.20.203.0.jar"/>
+    </fileset>
+    <property name="xmlenc:xmlenc:jar" value="/users/hl0325/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar"/>
+    <fileset id="xmlenc:xmlenc:jar" dir="/users/hl0325/.m2/repository/xmlenc/xmlenc/0.52">
+      <include name="xmlenc-0.52.jar"/>
+    </fileset>
+    <property name="commons-httpclient:commons-httpclient:jar" value="/users/hl0325/.m2/repository/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar"/>
+    <fileset id="commons-httpclient:commons-httpclient:jar" dir="/users/hl0325/.m2/repository/commons-httpclient/commons-httpclient/3.0.1">
+      <include name="commons-httpclient-3.0.1.jar"/>
+    </fileset>
+    <property name="commons-codec:commons-codec:jar" value="/users/hl0325/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar"/>
+    <fileset id="commons-codec:commons-codec:jar" dir="/users/hl0325/.m2/repository/commons-codec/commons-codec/1.4">
+      <include name="commons-codec-1.4.jar"/>
+    </fileset>
+    <property name="org.apache.commons:commons-math:jar" value="/users/hl0325/.m2/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.jar"/>
+    <fileset id="org.apache.commons:commons-math:jar" dir="/users/hl0325/.m2/repository/org/apache/commons/commons-math/2.1">
+      <include name="commons-math-2.1.jar"/>
+    </fileset>
+    <property name="commons-configuration:commons-configuration:jar" value="/users/hl0325/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar"/>
+    <fileset id="commons-configuration:commons-configuration:jar" dir="/users/hl0325/.m2/repository/commons-configuration/commons-configuration/1.6">
+      <include name="commons-configuration-1.6.jar"/>
+    </fileset>
+    <property name="commons-lang:commons-lang:jar" value="/users/hl0325/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar"/>
+    <fileset id="commons-lang:commons-lang:jar" dir="/users/hl0325/.m2/repository/commons-lang/commons-lang/2.4">
+      <include name="commons-lang-2.4.jar"/>
+    </fileset>
+    <property name="commons-digester:commons-digester:jar" value="/users/hl0325/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar"/>
+    <fileset id="commons-digester:commons-digester:jar" dir="/users/hl0325/.m2/repository/commons-digester/commons-digester/1.8">
+      <include name="commons-digester-1.8.jar"/>
+    </fileset>
+    <property name="commons-beanutils:commons-beanutils:jar" value="/users/hl0325/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar"/>
+    <fileset id="commons-beanutils:commons-beanutils:jar" dir="/users/hl0325/.m2/repository/commons-beanutils/commons-beanutils/1.7.0">
+      <include name="commons-beanutils-1.7.0.jar"/>
+    </fileset>
+    <property name="commons-beanutils:commons-beanutils-core:jar" value="/users/hl0325/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar"/>
+    <fileset id="commons-beanutils:commons-beanutils-core:jar" dir="/users/hl0325/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0">
+      <include name="commons-beanutils-core-1.8.0.jar"/>
+    </fileset>
+    <property name="commons-net:commons-net:jar" value="/users/hl0325/.m2/repository/commons-net/commons-net/1.4.1/commons-net-1.4.1.jar"/>
+    <fileset id="commons-net:commons-net:jar" dir="/users/hl0325/.m2/repository/commons-net/commons-net/1.4.1">
+      <include name="commons-net-1.4.1.jar"/>
+    </fileset>
+    <property name="oro:oro:jar" value="/users/hl0325/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar"/>
+    <fileset id="oro:oro:jar" dir="/users/hl0325/.m2/repository/oro/oro/2.0.8">
+      <include name="oro-2.0.8.jar"/>
+    </fileset>
+    <property name="org.mortbay.jetty:jetty:jar" value="/users/hl0325/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar"/>
+    <fileset id="org.mortbay.jetty:jetty:jar" dir="/users/hl0325/.m2/repository/org/mortbay/jetty/jetty/6.1.26">
+      <include name="jetty-6.1.26.jar"/>
+    </fileset>
+    <property name="org.mortbay.jetty:jetty-util:jar" value="/users/hl0325/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar"/>
+    <fileset id="org.mortbay.jetty:jetty-util:jar" dir="/users/hl0325/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26">
+      <include name="jetty-util-6.1.26.jar"/>
+    </fileset>
+    <property name="org.mortbay.jetty:servlet-api:jar" value="/users/hl0325/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar"/>
+    <fileset id="org.mortbay.jetty:servlet-api:jar" dir="/users/hl0325/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211">
+      <include name="servlet-api-2.5-20081211.jar"/>
+    </fileset>
+    <property name="tomcat:jasper-runtime:jar" value="/users/hl0325/.m2/repository/tomcat/jasper-runtime/5.5.12/jasper-runtime-5.5.12.jar"/>
+    <fileset id="tomcat:jasper-runtime:jar" dir="/users/hl0325/.m2/repository/tomcat/jasper-runtime/5.5.12">
+      <include name="jasper-runtime-5.5.12.jar"/>
+    </fileset>
+    <property name="tomcat:jasper-compiler:jar" value="/users/hl0325/.m2/repository/tomcat/jasper-compiler/5.5.12/jasper-compiler-5.5.12.jar"/>
+    <fileset id="tomcat:jasper-compiler:jar" dir="/users/hl0325/.m2/repository/tomcat/jasper-compiler/5.5.12">
+      <include name="jasper-compiler-5.5.12.jar"/>
+    </fileset>
+    <property name="org.mortbay.jetty:jsp-api-2.1:jar" value="/users/hl0325/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar"/>
+    <fileset id="org.mortbay.jetty:jsp-api-2.1:jar" dir="/users/hl0325/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14">
+      <include name="jsp-api-2.1-6.1.14.jar"/>
+    </fileset>
+    <property name="org.mortbay.jetty:servlet-api-2.5:jar" value="/users/hl0325/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar"/>
+    <fileset id="org.mortbay.jetty:servlet-api-2.5:jar" dir="/users/hl0325/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14">
+      <include name="servlet-api-2.5-6.1.14.jar"/>
+    </fileset>
+    <property name="org.mortbay.jetty:jsp-2.1:jar" value="/users/hl0325/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar"/>
+    <fileset id="org.mortbay.jetty:jsp-2.1:jar" dir="/users/hl0325/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14">
+      <include name="jsp-2.1-6.1.14.jar"/>
+    </fileset>
+    <property name="org.eclipse.jdt:core:jar" value="/users/hl0325/.m2/repository/org/eclipse/jdt/core/3.1.1/core-3.1.1.jar"/>
+    <fileset id="org.eclipse.jdt:core:jar" dir="/users/hl0325/.m2/repository/org/eclipse/jdt/core/3.1.1">
+      <include name="core-3.1.1.jar"/>
+    </fileset>
+    <property name="commons-el:commons-el:jar" value="/users/hl0325/.m2/repository/commons-el/commons-el/1.0/commons-el-1.0.jar"/>
+    <fileset id="commons-el:commons-el:jar" dir="/users/hl0325/.m2/repository/commons-el/commons-el/1.0">
+      <include name="commons-el-1.0.jar"/>
+    </fileset>
+    <property name="net.java.dev.jets3t:jets3t:jar" value="/users/hl0325/.m2/repository/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar"/>
+    <fileset id="net.java.dev.jets3t:jets3t:jar" dir="/users/hl0325/.m2/repository/net/java/dev/jets3t/jets3t/0.7.1">
+      <include name="jets3t-0.7.1.jar"/>
+    </fileset>
+    <property name="net.sf.kosmosfs:kfs:jar" value="/users/hl0325/.m2/repository/net/sf/kosmosfs/kfs/0.3/kfs-0.3.jar"/>
+    <fileset id="net.sf.kosmosfs:kfs:jar" dir="/users/hl0325/.m2/repository/net/sf/kosmosfs/kfs/0.3">
+      <include name="kfs-0.3.jar"/>
+    </fileset>
+    <property name="hsqldb:hsqldb:jar" value="/users/hl0325/.m2/repository/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar"/>
+    <fileset id="hsqldb:hsqldb:jar" dir="/users/hl0325/.m2/repository/hsqldb/hsqldb/1.8.0.10">
+      <include name="hsqldb-1.8.0.10.jar"/>
+    </fileset>
+    <property name="net.sf.jopt-simple:jopt-simple:jar" value="/users/hl0325/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar"/>
+    <fileset id="net.sf.jopt-simple:jopt-simple:jar" dir="/users/hl0325/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2">
+      <include name="jopt-simple-3.2.jar"/>
+    </fileset>
+    <property name="net.java.dev.jna:jna:jar" value="/users/hl0325/.m2/repository/net/java/dev/jna/jna/3.2.7/jna-3.2.7.jar"/>
+    <fileset id="net.java.dev.jna:jna:jar" dir="/users/hl0325/.m2/repository/net/java/dev/jna/jna/3.2.7">
+      <include name="jna-3.2.7.jar"/>
+    </fileset>
+    <fileset id="build-dependency-jars" dir="/users/hl0325/.m2/repository">
+      <include name="ant/ant/1.6.5/ant-1.6.5.jar"/>
+      <include name="asm/asm/3.2/asm-3.2.jar"/>
+      <include name="com/thoughtworks/paranamer/paranamer-ant/2.1/paranamer-ant-2.1.jar"/>
+      <include name="com/thoughtworks/paranamer/paranamer-generator/2.1/paranamer-generator-2.1.jar"/>
+      <include name="com/thoughtworks/qdox/qdox/1.10/qdox-1.10.jar"/>
+      <include name="commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar"/>
+      <include name="commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar"/>
+      <include name="commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
+      <include name="commons-codec/commons-codec/1.4/commons-codec-1.4.jar"/>
+      <include name="commons-collections/commons-collections/3.2/commons-collections-3.2.jar"/>
+      <include name="commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar"/>
+      <include name="commons-digester/commons-digester/1.8/commons-digester-1.8.jar"/>
+      <include name="commons-el/commons-el/1.0/commons-el-1.0.jar"/>
+      <include name="commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar"/>
+      <include name="commons-lang/commons-lang/2.4/commons-lang-2.4.jar"/>
+      <include name="commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+      <include name="commons-net/commons-net/1.4.1/commons-net-1.4.1.jar"/>
+      <include name="hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar"/>
+      <include name="junit/junit/4.6/junit-4.6.jar"/>
+      <include name="net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar"/>
+      <include name="net/java/dev/jna/jna/3.2.7/jna-3.2.7.jar"/>
+      <include name="net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar"/>
+      <include name="net/sf/kosmosfs/kfs/0.3/kfs-0.3.jar"/>
+      <include name="org/apache/commons/commons-math/2.1/commons-math-2.1.jar"/>
+      <include name="org/apache/hadoop/hadoop-core/0.20.203.0/hadoop-core-0.20.203.0.jar"/>
+      <include name="org/apache/rat/apache-rat-core/0.6/apache-rat-core-0.6.jar"/>
+      <include name="org/apache/rat/apache-rat-tasks/0.6/apache-rat-tasks-0.6.jar"/>
+      <include name="org/apache/rat/apache-rat/0.6/apache-rat-0.6.jar"/>
+      <include name="org/eclipse/jdt/core/3.1.1/core-3.1.1.jar"/>
+      <include name="org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar"/>
+      <include name="org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar"/>
+      <include name="org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar"/>
+      <include name="org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar"/>
+      <include name="org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar"/>
+      <include name="org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar"/>
+      <include name="oro/oro/2.0.8/oro-2.0.8.jar"/>
+      <include name="tomcat/jasper-compiler/5.5.12/jasper-compiler-5.5.12.jar"/>
+      <include name="tomcat/jasper-runtime/5.5.12/jasper-runtime-5.5.12.jar"/>
+      <include name="xmlenc/xmlenc/0.52/xmlenc-0.52.jar"/>
+    </fileset>
+  </target>
+</project>

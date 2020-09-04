@@ -1,0 +1,17 @@
+num_dcs=2
+cassandra_ips=node-1
+cassandra_ips=node-2
+cassandra_ips=node-3
+cassandra_ips=node-4
+cassandra_ips=node-5
+cassandra_ips=node-6
+cassandra_ips=node-7
+cassandra_ips=node-8
+cassandra_ips=node-9
+cassandra_ips=node-10
+cassandra_ips=node-11
+cassandra_ips=node-12
+cassandra_ips=node-13
+cassandra_ips=node-14
+cassandra_ips=node-15
+cassandra_ips=node-16
