@@ -136,4 +136,10 @@ X should be 16 if running an 8-server-8-client experiment.
 
 6.3 To re-produce Figures in the paper, we need to update dynamic_defaults and latency_throughput.bash accordingly. For instance, to re-create Figure 5a, we need to uncomment  line 120 and comment out line 121 in latency_throughput.bash.  
 
+6.4 If experimental settings are quite different from the ones specified in 2, then it could be possible for the performance to vary. The major cause is due to the configuration of Java's garbage collection. Then, it might be necessary to tweak 
+
+    Eiger-PORT/Eiger-PORT/conf/cassandra-env.sh
+    Eiger-PORT/eiger/conf/cassandra-env.sh
+    
+For instance, MAX_HEAP_SIZE, HEAP_NEWSIZE, etc.   
 
