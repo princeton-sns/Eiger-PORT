@@ -19,6 +19,8 @@ We highly recommend re-creating the experimental environment close to the settin
 3.2 Install dependencies by running 
 
     xxx:/local/Eiger-PORT$ ./install-dependencies.bash
+    
+Note: if the repository has to be cloned to somewhere different from /local, then please see 6.1 below.
 
 3.3 Build the source code. There are two pieces of source code in the repo. One is in the Eiger-PORT/Eiger-PORT subdirectory, which is the source code for Eiger-PORT; the other is in the Eiger-PORT/eiger subdirectory, which is the source code for the baseline system Eiger. We need to build both.
    
@@ -119,8 +121,9 @@ This shows the experiment was run with 4 threads on each client, Eiger-PORT has 
     xxx:/local/Eiger-PORT/eval-scripts/data_proc_scripts/  (use them inside experiment result directory, e.g., xxx:/local/Eiger-PORT/eval-scripts/experiments/dynamic/1599241223/)
     
 ## 6. Other Notes
-6.1 If the repository has to be cloned to a place different from /local/, e.g., /foo/, then the variable "local_dir" needs to be updated accordingly in the following 5 files:
+6.1 If the repository has to be cloned to a place different from /local/, e.g., /foo/, then the variable "local_dir" needs to be updated accordingly in the following 6 files:
 
+    /foo/Eiger-PORT/install-dependencies.bash
     /foo/Eiger-PORT/eval-scripts/latency-throughput.bash
     /foo/Eiger-PORT/Eiger-PORT/kodiak_dc_launcher.bash
     /foo/Eiger-PORT/eiger/kodiak_dc_launcher.bash
