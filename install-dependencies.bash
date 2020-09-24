@@ -7,4 +7,6 @@ sudo apt-get -y install openjdk-8-jdk
 
 sudo apt-get -y install ant
 
+sudo apt-get -y install maven
+
 sudo chown -R $username:cops $local_dir
