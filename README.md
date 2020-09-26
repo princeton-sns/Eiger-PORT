@@ -38,7 +38,7 @@ Note: if the repository has to be cloned to somewhere different from /local, the
    
 ####  (Note: "ant" might encounter failures for the first time of building when it dowloands its own dependencies. Please try "ant" multiple times if that happens, and it should succeed within 3 attempts.)  
    
-3.4 Build on a cluster of nodes: please repeat the steps 3.1 to 3.3 on all the machines Eiger-PORT will be run on. An easier option is to make an image that contains a built Eiger-PORT system (e.g., after done 3.3) and start all the other machines by loading the image (Cloud platforms like Emulab and Azure normally have this image creation functionality). Another option is to use scp to copy everything in the /local directory to the /local directory on the other nodes (need to install dependencies on other nodes first, e.g., step 3.2).
+3.4 Build on a cluster of nodes: please repeat the steps 3.1 to 3.3 on all the machines Eiger-PORT will be run on. An easier option is to make an image that contains a built Eiger-PORT system (e.g., after done 3.3) and start all the other machines by loading the image (Cloud platforms like Emulab and Azure normally have this image creation functionality). Another option is to repeat the above steps on every single node.
 
 ## 4. Run Experiments
 
