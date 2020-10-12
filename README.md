@@ -49,7 +49,7 @@ Now let us log onto the control node for the rest of this document, e.g., via ss
 
 4.1 Set up clusters. 
 
-Suppose we want to set up a cluster with 8 servers and 8 clients in it as described in the paper. Then, we need 16 machinies for each cluster and 2 clusters totally. One cluster is the active cluster for processing transactions and the other cluster is used as a replica, which passively receives repliaced writes from the active cluster. We do not need to pay much attention to the replica cluster. We also need one extra machine for being the control node. Therefore, to create an 8-server-8-client environment, we need 33 machines totally (2 clusters, 16 machines in each, and 1 control node).
+Suppose we want to set up a cluster with 8 servers and 8 clients in it as described in the paper. Then, we need 16 machines for each cluster and 2 clusters totally. One cluster is the active cluster for processing transactions and the other cluster is used as a replica, which passively receives replicated writes from the active cluster. We do not need to pay much attention to the replica cluster. We also need one extra machine for being the control node. Therefore, to create an 8-server-8-client environment, we need 33 machines totally (2 clusters, 16 machines in each, and 1 control node).
 
 Modify the following two files to setup the clusters: 
 
